@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {  
+    --radius-*:initial; //removes the default radius values
+    --radius-sm: 0.5rem;
+    --radius-md: 1rem;
+    --radius-lg: 2rem;
+
+    //Removing all the other neutral tones except for gray
+    --color-slate-*: initial;
+    --color-zinc-*: initial;
+    --color-neutral-*: initial;
+    --color-stone-*: initial;
+
+
+
+}
+
+@theme inline {  
+    // for creating alias tokens
+    
+
+}
+
+@layer base {  
+    h1 {    
+        font-size: var(--text-3xl);  
+    }  
+    h2 {    
+        font-size: var(--text-2xl);  
+    }
+    p {
+        font-size: var(--text-base);
+    }
+}

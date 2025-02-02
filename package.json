@@ -1,0 +1,20 @@
+{
+	"dependencies": {
+		"@tailwindcss/cli": "^4.0.0",
+		"tailwindcss": "^4.0.0"
+	},
+	"name": "website-learning",
+	"version": "1.0.0",
+	"description": "a space to learn how to make websites",
+	"main": "index.js",
+	"devDependencies": {
+		"typescript": "^5.7.3"
+	},
+	"scripts": {
+		"start": "tsc --watch",
+		"tw-build": "@tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+	},
+	"author": "",
+	"license": "ISC",
+	"keywords": []
+}
